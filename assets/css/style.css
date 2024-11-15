@@ -1,0 +1,1001 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* header start */
+.header_menu {
+    border-bottom: 2px solid #E2ECE4;
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.container_menu {
+    max-width: 1920px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+}
+
+.but_text {
+    display: flex;
+    gap: 60px;
+    margin-right: 44px;
+    align-items: center;
+}
+
+.container_menu img {
+    align-items: center;
+    width: 83px;
+    height: 71px;
+    cursor: pointer;
+}
+
+.bez p {
+    margin-left: 190px;
+    font-size: 20px;
+    color: #000000a3;
+}
+
+.but_text {
+    font-size: 20px;
+    color: #000000a5;
+    gap: 60px;
+    display: flex;
+}
+
+.but_text a {
+    font-size: 20px;
+    color: #000000a5;
+    gap: 60px;
+    display: flex;
+}
+
+.but_text buttons {
+    gap: 60px;
+    display: flex;
+}
+
+.btn {
+    width: 223px;
+    height: 63px;
+    color: white;
+    background-color: #71BFB0;
+    border: none;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+    border: 3px solid #71BFB0;
+}
+
+.btn:hover {
+    width: 223px;
+    height: 63px;
+    color: #71BFB0;
+    background-color: #8771bf00;
+    border: 3px solid #71BFB0;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* header end */
+
+/* banner start */
+banner {
+    background-image: url('../image/banner.png');
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.banner_menu {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    margin-top: 100px;
+    text-align: center;
+    gap: 40px;
+}
+
+.banner_text h1 {
+    color: #000000a5;
+    display: flex;
+    gap: 30px;
+    font-size: 96px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.banner_text h3 {
+    color: #00000086;
+    display: flex;
+    max-width: 642px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.svet {
+    color: #71BFB0;
+    font-family: "Raleway", sans-serif;
+}
+
+.buttons2 {
+    margin-top: 19px;
+}
+
+.btn2 {
+    width: 288px;
+    height: 63px;
+    color: white;
+    background-color: #71BFB0;
+    border: none;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 19px;
+    border: 3px solid #71BFB0;
+}
+
+.btn2:hover {
+    width: 288px;
+    height: 63px;
+    color: #71BFB0;
+    background-color: #e2ece4ea;
+    border: 3px solid #71BFB0;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn_to_top {
+    width: 60px;
+    height: 60px;
+    background-color: #71BFB0;
+    border: 2px solid #71BFB0;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.btn_to_top img {
+    width: 20px;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+/* banner end */
+
+/* piusi start */
+.plisi {
+    display: flex;
+}
+
+.plisi1 {
+    background-color: #FAF4F1;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.plisi1:hover {
+    background-color: #FAF4F1;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.stroca {
+    flex-wrap: wrap;
+}
+
+.plisi1 h2 {
+    color: #000;
+    padding: 45px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    max-width: 340px;
+}
+
+.stroca {
+    display: flex;
+}
+
+.stroca p {
+    font-size: 16px;
+    display: flex;
+    gap: 8px;
+    color: #000000c1;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.stroca img {
+    width: 68px;
+    height: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.wrap {
+    max-width: 290px;
+}
+
+.plisi2 {
+    background-color: #F9F9FB;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+}
+
+.plisi2:hover {
+    background-color: #F9F9FB;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.plisi2 h2 {
+    color: #000;
+    padding: 45px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    max-width: 340px;
+}
+
+.wrap2 {
+    max-width: 220px;
+    margin-right: 8px;
+}
+
+.plisi3 {
+    background-color: #F3DCD6;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+}
+
+.plisi3:hover {
+    background-color: #F3DCD6;
+    width: 508px;
+    height: 258px;
+    display: flex;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.plisi3 h2 {
+    color: #000;
+    padding: 45px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    max-width: 340px;
+}
+
+.wrap3 {
+    max-width: 260px;
+    margin-right: 8px;
+}
+
+/* piusi end */
+
+/* katalog start */
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.zagolovok {
+    margin: 0 auto;
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+}
+
+.zagolovok h3 {
+    color: #71BFB0;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p {
+    color: #71BFB0;
+}
+
+nav {
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 24px;
+    color: #0000009a;
+    position: relative;
+    font-weight: bold;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background: #71BFB0;
+    height: 4px;
+    left: 20%;
+    bottom: -3px;
+    transform: translateX(-10%);
+    transition: .8s;
+}
+
+nav a:hover::after {
+    width: 80%;
+}
+
+.kotol {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.kotol img {
+    width: 442px;
+    height: 445px;
+    cursor: pointer;
+}
+
+.kotol1 {
+    text-wrap: wrap;
+}
+
+.odna {
+    display: flex;
+    max-width: 442px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.odna h2 {
+    font-size: 24px;
+}
+
+.odna h3 {
+    font-size: 32px;
+    color: #71BFB0;
+}
+
+.kotol1 p {
+    font-size: 20px;
+    color: #0000009a;
+    text-align: left;
+    margin-top: 5px;
+    max-width: 400px;
+}
+
+.btn3 {
+    width: 442px;
+    height: 57px;
+    color: #71BFB0;
+    background-color: #71bfaf00;
+    border: none;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 19px;
+    border: 3px solid #71BFB0;
+    margin-bottom: 50px;
+}
+
+.btn3:hover {
+    width: 442px;
+    height: 57px;
+    color: white;
+    background-color: #71BFB0;
+    border: 3px solid #71BFB0;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.yl_nad {
+    width: 442px;
+    height: 445px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.yl_nad img:hover {
+    width: 442px;
+    height: 445px;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+}
+
+/* katalog end */
+
+/* o_kompanii start */
+.container_kompania {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    text-align: center;
+    gap: 40px;
+}
+
+.kompania {
+    background-color: #FAF4F1;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.kompania_text {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 748px;
+    align-items: center;
+}
+
+.kompania_text h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    color: #000000b9;
+    margin-bottom: 50px;
+}
+
+.kompania_text p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.buttons4 {
+    margin-top: 30px;
+}
+
+.btn4 {
+    width: 320px;
+    height: 57px;
+    color: white;
+    background-color: #71BFB0;
+    border: none;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 19px;
+    border: 3px solid #71BFB0;
+    margin-bottom: 50px;
+}
+
+.btn4:hover {
+    width: 320px;
+    height: 57px;
+    color: #71BFB0;
+    background-color: #71bfaf00;
+    border: 3px solid #71BFB0;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.kompania img {
+    width: 531px;
+    height: 602px;
+}
+
+/* o_kompanii end */
+
+/* otz start */
+.otzvi {
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 80px;
+    display: flex;
+    gap: 200px;
+}
+
+.otz1 img {
+    width: 180px;
+    height: 184px;
+}
+
+.otz1 h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.zvezd img {
+    margin-top: 5px;
+    width: 22px;
+    height: 22px;
+}
+
+.otz1 p {
+    margin-top: 16px;
+    font-size: 20px;
+    max-width: 300px;
+}
+
+.otz2 img {
+    width: 160px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.otz2 h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.zvezd img {
+    margin-top: 5px;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 0;
+}
+
+.otz2 p {
+    margin-top: 16px;
+    font-size: 20px;
+    max-width: 300px;
+}
+
+.otz3 img {
+    margin-top: 20px;
+    width: 120px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.otz3 h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.zvezd img {
+    margin-top: 5px;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 0;
+}
+
+.otz3 p {
+    margin-top: 16px;
+    font-size: 20px;
+    max-width: 290px;
+}
+
+.toshkicont {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 5px;
+    max-height: 15px;
+    max-width: 200px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.toshka {
+    gap: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 1000%;
+    border: 1px solid #71BFB0;
+    cursor: pointer;
+}
+
+.toshka:hover {
+    gap: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #71bfaf67;
+    border-radius: 1000%;
+    border: 1px solid #71BFB0;
+    cursor: pointer;
+}
+
+.toshka2 {
+    width: 15px;
+    height: 15px;
+    background-color: #71BFB0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* otz end */
+
+/* zvonok start */
+.zelenay_kvadrat {
+    background-color: #E2ECE4;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.pozvoni_text {
+    padding: 80px;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stroca h1 {
+    margin: 0 auto;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+}
+
+.svet1 {
+    color: #71BFB0;
+    font-family: "Raleway", sans-serif;
+    margin-left: 20px;
+}
+
+.nadp p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #444444;
+}
+
+.sviz {
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+form {
+    display: flex;
+}
+
+input {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(201, 201, 201, 0);
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding: 10px 0px 7px 10px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    color: #C2C2C2;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    font-size: 24px;
+    font-weight: 400;
+    color: #C2C2C2;
+    line-height: 40px;
+    margin-top: 55px;
+}
+
+.sviz p {
+    color: #C2C2C2;
+    font-size: 30px;
+    padding: 10px 0 0 0;
+    margin-left: 30px;
+}
+
+.buttons5 {
+    margin-top: 10px;
+}
+
+.btn5 {
+    width: 320px;
+    height: 57px;
+    color: white;
+    background-color: #71BFB0;
+    border: none;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 19px;
+    border: 3px solid #71BFB0;
+    margin-bottom: 50px;
+}
+
+.btn5:hover {
+    width: 320px;
+    height: 57px;
+    color: #71BFB0;
+    background-color: #71bfaf00;
+    border: 3px solid #71BFB0;
+    font-size: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* zvonok end */
+
+/* inform start */
+.container_adres {
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    max-width: 1000px;
+    gap: 70px;
+}
+
+.adres {
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.adres img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.adres img:hover {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: .5s;
+}
+
+.adres h3 {
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+
+.adres p {
+    margin-top: 6px;
+    color: #000000c3;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.poshta {
+    width: 300px;
+}
+
+.poshta img {
+    width: 100px;
+    height: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.poshta img:hover {
+    width: 100px;
+    height: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: .5s;
+}
+
+.poshta h3 {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 6px;
+}
+
+.poshta a {
+    margin-top: 20px;
+    color: #000000c3;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.vremi {
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left: 60px;
+}
+
+.vremi img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.vremi img:hover {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: .5s;
+}
+
+.vremi h3 {
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+
+.vremi p {
+    margin-top: 6px;
+    color: #000000c3;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.map {
+    background-image: url('../image/map.png');
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+/* inform end */
+
+/* podval start */
+.container_4 {
+    margin-top: 116px;
+    padding: 116px 0 0;
+    width: 1800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.podval {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1920;
+    height: 395px;
+    background-color: #E2ECE4;
+}
+
+.podvalvse {
+    display: flex;
+    gap: 150px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.text {
+    margin-top: 70px;
+    display: flex;
+    color: #000000fa;
+}
+
+.tel {
+    margin-left: 20px;
+}
+
+.shast2 {
+    display: flex;
+}
+
+.shast2 hr {
+    border: 1px solid #0000004f;
+    ;
+    height: 243px;
+}
+
+.shast3 p {
+    color: #000000ac;
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+
+.icon {
+    margin-top: 100px;
+    width: 70px;
+    height: 65px;
+    gap: 60px;
+    display: flex;
+}
+
+.icon img {
+    width: 70px;
+    height: 65px;
+}
+
+.icon img:hover {
+    width: 70px;
+    height: 65px;
+    display: flex;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.lozyng {
+    color: #00000086;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+/* podval end */
